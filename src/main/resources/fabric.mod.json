@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "coloredinnerwool",
+  "version": "${version}",
+
+  "name": "Colored Inner Wool",
+  "description": "Makes the inner wool of sheep the same color as their actual wool",
+  "authors": [
+    "MrIbby"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/projects/328271/",
+    "sources": "https://github.com/FabricCommunity/ColoredInnerWool",
+    "issues": "https://github.com/FabricCommunity/ColoredInnerWool/issues"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coloredinnerwool/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "coloredinnerwool.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  },
+
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}

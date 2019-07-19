@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.github.fabriccommunity.coloredinnerwool.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "SheepRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
